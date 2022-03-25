@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
+     <ink href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Oswald:wght@300&family=Smooch+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="query.css">
+    <link rel="shortcut icon" href= "C:\Users\Dell\OneDrive\Desktop\Web dev\CW\public_html\background.jpg" />
+    <script src="index.js"></script>
+    <title>Main Page</title>
+</head>
+    
+<body>
+
+    <div><a href="main_page.html" id="query_home" style="font-family: 'Quicksand', sans-serif ;font-size: small;text-decoration: none;color: white;"> &#60; &nbsp;Return to hub</a></div>
+    <div id="display-details">
+        <div id = "top">
+        </div>
+        <div id = "content">
+        </div>
+        <div id = "button">
+        </div>
+    </div>
+
+    <div class="query-form" >
+        
+        <p class = "query-head"><b>Query Form</b></p>
+        <hr>
+        <form action = "index.html" style ="font-family: 'Oswald', sans-serif;" name ="form" method="get" >
+            <label for="name">Name: &nbsp;<input type="text" name="name" id="name" autofocus autocomplete="off"></label> 
+
+            <label for="email" style="padding-top:0px;">Email: &nbsp;<input type="email" name="email" id="email" autocomplete="off"></label>
+
+            <label for="subject" id = "subject">
+                Subject: &nbsp;
+                <select name="subject" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
+                    <option value = "None" disabled selected="True">--None--</option>
+                    <option value="Delivery">Delivery</option>
+                    <option value="Pricing">Pricing</option>
+                    <option value="Warranty">Warranty</option>
+                </select>
+            </label>
+            
+            <label id = "detail" for="query-detail" style="display: flex;right: 25px; padding-top: 0px;"> 
+                 Details: &nbsp;<textarea name="details"  cols="20px" rows="2" placeholder="Query details" style="text-align: center;"></textarea></label>
+
+            <input type="submit" a hre  id="submit" value="View Query"  onclick="navigation();return false;">
+        </form>
+    </div>
+    <br> 
+    <div class="bottom">
+        <p id="page_editor">
+            Created by: Lojan Jayakumar
+            <br>&emsp;&emsp;&emsp;
+            <a href="page_editor.html" style="text-decoration: none;color:white">Page Editor</a> 
+        </p>
+    </div>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
