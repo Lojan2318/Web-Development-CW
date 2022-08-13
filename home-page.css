@@ -3,7 +3,7 @@
   width: 50%;
   display: flex;
   flex-direction: row-reverse;
-  align-its: center;
+  align-items: center;
   padding: 0 25% 0 25%;
 }
 
